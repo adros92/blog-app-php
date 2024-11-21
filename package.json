@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {},
   "devDependencies": {
     "gulp": "^3.9.1",
-    "gulp-clean-css": "^3.7.0"
+    "gulp-clean-css": "^3.7.0",
+    "gulp-uglify": "^3.0.2"
   },
   "scripts": {
     "buildapp": "gulp buildcss && gulp copyimages"
